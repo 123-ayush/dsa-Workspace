@@ -61,7 +61,6 @@ public class nqueens {
     public static void main(String[] args) {
         int n = 4;
         int board[][] = new int[4][4];
-        int test[][] = new int[4][4];
 
         queen(board, n, 0);
         return;
